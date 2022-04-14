@@ -5,11 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
-import { ProductService } from './product.service';
+
 @NgModule({
   declarations: [AppComponent, ProductPageComponent],
   imports: [BrowserModule, FormsModule, HttpModule],
-  providers: [ProductService],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
